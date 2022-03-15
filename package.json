@@ -1,0 +1,18 @@
+{
+  "name": "buildkite-buildstatus-plugin",
+  "version": "1.0.0",
+  "description": "A build alert system for Buildkite pipelines",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.51.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
+}

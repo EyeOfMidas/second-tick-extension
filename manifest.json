@@ -1,0 +1,14 @@
+{
+  "name": "Second Tick Extension",
+  "description": "An extension that can run events once per second in a service worker",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "notifications",
+    "alarms"
+  ]
+}
+
